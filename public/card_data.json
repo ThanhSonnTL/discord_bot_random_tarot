@@ -1,0 +1,1153 @@
+{
+  "total_cards": 78,
+  "cards": [
+    {
+      "type": "Major Arcana",
+      "name": "The Fool",
+      "value": "0",
+      "value_int": 0,
+      "meaning_upright": "Khởi đầu, ngây thơ, tự do.",
+      "meaning_reversed": "Ngớ ngẩn, rủi ro, bất cẩn.",
+      "keywords": ["beginnings", "innocence", "freedom"],
+      "associations": {
+        "element": "Air",
+        "planet": "Uranus",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Magician",
+      "value": "1",
+      "value_int": 1,
+      "meaning_upright": "Quyền năng, sự tập trung, sáng tạo.",
+      "meaning_reversed": "Lừa dối, thao túng, không định hướng.",
+      "keywords": ["power", "focus", "creativity"],
+      "associations": {
+        "element": "Air",
+        "planet": "Mercury",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The High Priestess",
+      "value": "2",
+      "value_int": 2,
+      "meaning_upright": "Trực giác, bí mật, trí tuệ.",
+      "meaning_reversed": "Thiếu hiểu biết, sự giấu giếm, bất cẩn.",
+      "keywords": ["intuition", "secrets", "wisdom"],
+      "associations": {
+        "element": "Water",
+        "planet": "Moon",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Empress",
+      "value": "3",
+      "value_int": 3,
+      "meaning_upright": "Sự nuôi dưỡng, phong phú, sáng tạo.",
+      "meaning_reversed": "Sự cạn kiệt, trì hoãn, bất ổn.",
+      "keywords": ["nurturing", "abundance", "creativity"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Venus",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Emperor",
+      "value": "4",
+      "value_int": 4,
+      "meaning_upright": "Quyền lực, cấu trúc, sự ổn định.",
+      "meaning_reversed": "Độc tài, cứng nhắc, kiểm soát.",
+      "keywords": ["authority", "structure", "stability"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mars",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Hierophant",
+      "value": "5",
+      "value_int": 5,
+      "meaning_upright": "Truyền thống, sự hướng dẫn, kiến thức.",
+      "meaning_reversed": "Sự nổi loạn, lầm lạc, hạn chế.",
+      "keywords": ["tradition", "guidance", "knowledge"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Jupiter",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Lovers",
+      "value": "6",
+      "value_int": 6,
+      "meaning_upright": "Tình yêu, sự hòa hợp, lựa chọn.",
+      "meaning_reversed": "Mâu thuẫn, mất cân bằng, thiếu hòa hợp.",
+      "keywords": ["love", "harmony", "choices"],
+      "associations": {
+        "element": "Air",
+        "planet": "Venus",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Chariot",
+      "value": "7",
+      "value_int": 7,
+      "meaning_upright": "Quyết tâm, thành công, kiểm soát.",
+      "meaning_reversed": "Mất kiểm soát, thất bại, thiếu định hướng.",
+      "keywords": ["determination", "success", "control"],
+      "associations": {
+        "element": "Water",
+        "planet": "Moon",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "Strength",
+      "value": "8",
+      "value_int": 8,
+      "meaning_upright": "Sức mạnh, lòng can đảm, kiên nhẫn.",
+      "meaning_reversed": "Yếu đuối, sự thiếu kiên nhẫn, lo sợ.",
+      "keywords": ["strength", "courage", "patience"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Sun",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Hermit",
+      "value": "9",
+      "value_int": 9,
+      "meaning_upright": "Tìm kiếm, sự cô đơn, trí tuệ bên trong.",
+      "meaning_reversed": "Cô lập, sự vô hướng, lo lắng.",
+      "keywords": ["introspection", "solitude", "inner wisdom"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Mercury",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "Wheel of Fortune",
+      "value": "10",
+      "value_int": 10,
+      "meaning_upright": "May mắn, thay đổi, số phận.",
+      "meaning_reversed": "Xui xẻo, trì trệ, không chắc chắn.",
+      "keywords": ["luck", "change", "destiny"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Jupiter",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "Justice",
+      "value": "11",
+      "value_int": 11,
+      "meaning_upright": "Công lý, sự cân bằng, sự thật.",
+      "meaning_reversed": "Bất công, thiếu cân bằng, sai lầm.",
+      "keywords": ["justice", "balance", "truth"],
+      "associations": {
+        "element": "Air",
+        "planet": "Venus",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Hanged Man",
+      "value": "12",
+      "value_int": 12,
+      "meaning_upright": "Hy sinh, sự nhìn nhận mới, sự chấp nhận.",
+      "meaning_reversed": "Cứng đầu, trì hoãn, bất lực.",
+      "keywords": ["sacrifice", "new perspective", "acceptance"],
+      "associations": {
+        "element": "Water",
+        "planet": "Neptune",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "Death",
+      "value": "13",
+      "value_int": 13,
+      "meaning_upright": "Chuyển đổi, kết thúc, tái sinh.",
+      "meaning_reversed": "Kháng cự thay đổi, đình trệ, trì trệ.",
+      "keywords": ["transformation", "ending", "rebirth"],
+      "associations": {
+        "element": "Water",
+        "planet": "Pluto",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "Temperance",
+      "value": "14",
+      "value_int": 14,
+      "meaning_upright": "Cân bằng, kiên nhẫn, hài hòa.",
+      "meaning_reversed": "Mất cân bằng, thiếu kiên nhẫn, hỗn loạn.",
+      "keywords": ["balance", "patience", "harmony"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Jupiter",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Devil",
+      "value": "15",
+      "value_int": 15,
+      "meaning_upright": "Cám dỗ, ràng buộc, sự lệ thuộc.",
+      "meaning_reversed": "Giải thoát, tự do, sự rõ ràng.",
+      "keywords": ["temptation", "bondage", "dependency"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Saturn",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Tower",
+      "value": "16",
+      "value_int": 16,
+      "meaning_upright": "Thay đổi đột ngột, sự sụp đổ, khám phá.",
+      "meaning_reversed": "Tránh né thay đổi, sự sụp đổ chậm chạp, sự cứng nhắc.",
+      "keywords": ["sudden change", "collapse", "revelation"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mars",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Star",
+      "value": "17",
+      "value_int": 17,
+      "meaning_upright": "Hy vọng, sự chữa lành, hướng dẫn.",
+      "meaning_reversed": "Mất phương hướng, thiếu hy vọng, tiêu cực.",
+      "keywords": ["hope", "healing", "guidance"],
+      "associations": {
+        "element": "Air",
+        "planet": "Uranus",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Moon",
+      "value": "18",
+      "value_int": 18,
+      "meaning_upright": "Trực giác, ảo giác, sự bí ẩn.",
+      "meaning_reversed": "Lừa dối, nhầm lẫn, sự bất an.",
+      "keywords": ["intuition", "illusion", "mystery"],
+      "associations": {
+        "element": "Water",
+        "planet": "Neptune",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The Sun",
+      "value": "19",
+      "value_int": 19,
+      "meaning_upright": "Hạnh phúc, thành công, năng lượng.",
+      "meaning_reversed": "Mất niềm tin, chậm trễ, tiêu cực.",
+      "keywords": ["happiness", "success", "energy"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Sun",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "Judgement",
+      "value": "20",
+      "value_int": 20,
+      "meaning_upright": "Thức tỉnh, phán xét, sự rõ ràng.",
+      "meaning_reversed": "Phán xét sai lầm, lẩn tránh, mâu thuẫn.",
+      "keywords": ["awakening", "judgement", "clarity"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Pluto",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Major Arcana",
+      "name": "The World",
+      "value": "21",
+      "value_int": 21,
+      "meaning_upright": "Hoàn thành, đạt được, trọn vẹn.",
+      "meaning_reversed": "Kết thúc trì trệ, thiếu sự hoàn thiện, sự mâu thuẫn.",
+      "keywords": ["completion", "achievement", "wholeness"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Saturn",
+        "astrological_sign": null
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ace of Cups",
+      "value": "1",
+      "value_int": 1,
+      "suit": "Cups",
+      "meaning_upright": "Tình yêu mới, cảm xúc sâu sắc, sự viên mãn.",
+      "meaning_reversed": "Khóa cảm xúc, sự hụt hẫng, không thể yêu thương.",
+      "keywords": ["new love", "emotion", "fulfillment"],
+      "associations": {
+        "element": "Water",
+        "planet": "Moon",
+        "astrological_sign": "Cancer"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Two of Cups",
+      "value": "2",
+      "value_int": 2,
+      "suit": "Cups",
+      "meaning_upright": "Quan hệ đối tác, sự kết nối, cân bằng.",
+      "meaning_reversed": "Mất cân bằng, mâu thuẫn, xa cách.",
+      "keywords": ["partnership", "connection", "balance"],
+      "associations": {
+        "element": "Water",
+        "planet": "Venus",
+        "astrological_sign": "Cancer"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Three of Cups",
+      "value": "3",
+      "value_int": 3,
+      "suit": "Cups",
+      "meaning_upright": "Lễ kỷ niệm, tình bạn, niềm vui.",
+      "meaning_reversed": "Cô lập, xung đột, mất niềm tin.",
+      "keywords": ["celebration", "friendship", "joy"],
+      "associations": {
+        "element": "Water",
+        "planet": "Mercury",
+        "astrological_sign": "Cancer"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Four of Cups",
+      "value": "4",
+      "value_int": 4,
+      "suit": "Cups",
+      "meaning_upright": "Suy ngẫm, sự không hài lòng, cơ hội bị bỏ lỡ.",
+      "meaning_reversed": "Chấp nhận, đổi mới, cơ hội mới.",
+      "keywords": ["contemplation", "discontent", "missed opportunity"],
+      "associations": {
+        "element": "Water",
+        "planet": "Moon",
+        "astrological_sign": "Cancer"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Five of Cups",
+      "value": "5",
+      "value_int": 5,
+      "suit": "Cups",
+      "meaning_upright": "Nỗi buồn, sự mất mát, tiếc nuối.",
+      "meaning_reversed": "Hàn gắn, tha thứ, tiến về phía trước.",
+      "keywords": ["sadness", "loss", "regret"],
+      "associations": {
+        "element": "Water",
+        "planet": "Mars",
+        "astrological_sign": "Scorpio"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Six of Cups",
+      "value": "6",
+      "value_int": 6,
+      "suit": "Cups",
+      "meaning_upright": "Hoài niệm, ký ức, sự hào phóng.",
+      "meaning_reversed": "Dính mắc vào quá khứ, thiếu tiến triển, sự quên lãng.",
+      "keywords": ["nostalgia", "memory", "generosity"],
+      "associations": {
+        "element": "Water",
+        "planet": "Sun",
+        "astrological_sign": "Scorpio"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Seven of Cups",
+      "value": "7",
+      "value_int": 7,
+      "suit": "Cups",
+      "meaning_upright": "Lựa chọn, tưởng tượng, cơ hội.",
+      "meaning_reversed": "Sự nhầm lẫn, thiếu rõ ràng, ảo tưởng.",
+      "keywords": ["choices", "imagination", "opportunity"],
+      "associations": {
+        "element": "Water",
+        "planet": "Venus",
+        "astrological_sign": "Scorpio"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Eight of Cups",
+      "value": "8",
+      "value_int": 8,
+      "suit": "Cups",
+      "meaning_upright": "Rời bỏ, tìm kiếm, hành trình mới.",
+      "meaning_reversed": "Trở lại, chấp nhận, từ bỏ sự thất vọng.",
+      "keywords": ["departure", "search", "new journey"],
+      "associations": {
+        "element": "Water",
+        "planet": "Saturn",
+        "astrological_sign": "Pisces"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Nine of Cups",
+      "value": "9",
+      "value_int": 9,
+      "suit": "Cups",
+      "meaning_upright": "Ước mơ thành hiện thực, sự thỏa mãn, niềm vui.",
+      "meaning_reversed": "Thất vọng, mong muốn không đạt được, sự không hài lòng.",
+      "keywords": ["dreams come true", "satisfaction", "joy"],
+      "associations": {
+        "element": "Water",
+        "planet": "Jupiter",
+        "astrological_sign": "Pisces"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ten of Cups",
+      "value": "10",
+      "value_int": 10,
+      "suit": "Cups",
+      "meaning_upright": "Hạnh phúc gia đình, tình yêu hoàn hảo, sự viên mãn.",
+      "meaning_reversed": "Sự mất mát, nỗi buồn, sự tan vỡ.",
+      "keywords": ["happiness", "love", "fulfillment"],
+      "associations": {
+        "element": "Water",
+        "planet": "Jupiter",
+        "astrological_sign": "Pisces"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Page of Cups",
+      "value": "Page",
+      "value_int": 11,
+      "suit": "Cups",
+      "meaning_upright": "Tin vui, sự ngây thơ, cảm xúc mới mẻ.",
+      "meaning_reversed": "Thiếu trưởng thành, bất ổn cảm xúc, tin xấu.",
+      "keywords": ["news", "innocence", "new emotions"],
+      "associations": {
+        "element": "Water",
+        "planet": "Moon",
+        "astrological_sign": "Cancer"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Knight of Cups",
+      "value": "Knight",
+      "value_int": 12,
+      "suit": "Cups",
+      "meaning_upright": "Lãng mạn, lý tưởng, đề xuất.",
+      "meaning_reversed": "Mất tập trung, không thực tế, thất vọng.",
+      "keywords": ["romance", "idealism", "proposal"],
+      "associations": {
+        "element": "Water",
+        "planet": "Venus",
+        "astrological_sign": "Pisces"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Queen of Cups",
+      "value": "Queen",
+      "value_int": 13,
+      "suit": "Cups",
+      "meaning_upright": "Trực giác, lòng từ bi, cảm xúc sâu sắc.",
+      "meaning_reversed": "Quá nhạy cảm, phụ thuộc, không cân bằng cảm xúc.",
+      "keywords": ["intuition", "compassion", "deep emotion"],
+      "associations": {
+        "element": "Water",
+        "planet": "Moon",
+        "astrological_sign": "Cancer"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "King of Cups",
+      "value": "King",
+      "value_int": 14,
+      "suit": "Cups",
+      "meaning_upright": "Kiểm soát cảm xúc, lãnh đạo, sự hiểu biết.",
+      "meaning_reversed": "Thiếu kiểm soát, bạo lực, lạm dụng quyền lực.",
+      "keywords": ["emotional control", "leadership", "understanding"],
+      "associations": {
+        "element": "Water",
+        "planet": "Neptune",
+        "astrological_sign": "Pisces"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ace of Wands",
+      "value": "1",
+      "value_int": 1,
+      "suit": "Wands",
+      "meaning_upright": "Khởi đầu sáng tạo, năng lượng mới, cảm hứng.",
+      "meaning_reversed": "Trì trệ, thiếu ý tưởng, sự chậm trễ.",
+      "keywords": ["creativity", "energy", "inspiration"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Sun",
+        "astrological_sign": "Aries"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Two of Wands",
+      "value": "2",
+      "value_int": 2,
+      "suit": "Wands",
+      "meaning_upright": "Kế hoạch, quyết định, khám phá.",
+      "meaning_reversed": "Sự thiếu quyết đoán, ngại thay đổi, cơ hội bị bỏ lỡ.",
+      "keywords": ["planning", "decision", "exploration"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mars",
+        "astrological_sign": "Aries"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Three of Wands",
+      "value": "3",
+      "value_int": 3,
+      "suit": "Wands",
+      "meaning_upright": "Mở rộng, lãnh đạo, cơ hội.",
+      "meaning_reversed": "Trì hoãn, mất định hướng, thiếu tiến triển.",
+      "keywords": ["expansion", "leadership", "opportunity"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Sun",
+        "astrological_sign": "Aries"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Four of Wands",
+      "value": "4",
+      "value_int": 4,
+      "suit": "Wands",
+      "meaning_upright": "Ổn định, lễ kỷ niệm, sự đoàn kết.",
+      "meaning_reversed": "Bất ổn, căng thẳng gia đình, không hòa hợp.",
+      "keywords": ["stability", "celebration", "unity"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Venus",
+        "astrological_sign": "Leo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Five of Wands",
+      "value": "5",
+      "value_int": 5,
+      "suit": "Wands",
+      "meaning_upright": "Xung đột, cạnh tranh, thử thách.",
+      "meaning_reversed": "Giải quyết xung đột, hòa bình, hợp tác.",
+      "keywords": ["conflict", "competition", "challenge"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Saturn",
+        "astrological_sign": "Leo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Six of Wands",
+      "value": "6",
+      "value_int": 6,
+      "suit": "Wands",
+      "meaning_upright": "Thành công, công nhận, chiến thắng.",
+      "meaning_reversed": "Thất bại, không được công nhận, sự trì hoãn.",
+      "keywords": ["success", "recognition", "victory"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Jupiter",
+        "astrological_sign": "Leo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Seven of Wands",
+      "value": "7",
+      "value_int": 7,
+      "suit": "Wands",
+      "meaning_upright": "Bảo vệ, cạnh tranh, lập trường vững chắc.",
+      "meaning_reversed": "Mất tự tin, thất bại, từ bỏ.",
+      "keywords": ["defense", "competition", "stand firm"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mars",
+        "astrological_sign": "Sagittarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Eight of Wands",
+      "value": "8",
+      "value_int": 8,
+      "suit": "Wands",
+      "meaning_upright": "Tốc độ, tiến triển, hành động.",
+      "meaning_reversed": "Chậm trễ, đình trệ, hỗn loạn.",
+      "keywords": ["speed", "progress", "action"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mercury",
+        "astrological_sign": "Sagittarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Nine of Wands",
+      "value": "9",
+      "value_int": 9,
+      "suit": "Wands",
+      "meaning_upright": "Sức bền, sự kiên nhẫn, vượt qua khó khăn.",
+      "meaning_reversed": "Mệt mỏi, không tin tưởng, bỏ cuộc.",
+      "keywords": ["resilience", "patience", "overcoming"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Moon",
+        "astrological_sign": "Sagittarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ten of Wands",
+      "value": "10",
+      "value_int": 10,
+      "suit": "Wands",
+      "meaning_upright": "Trách nhiệm, gánh nặng, hoàn thành.",
+      "meaning_reversed": "Quá tải, thiếu trách nhiệm, không thể hoàn thành.",
+      "keywords": ["responsibility", "burden", "completion"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Saturn",
+        "astrological_sign": "Sagittarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Page of Wands",
+      "value": "Page",
+      "value_int": 11,
+      "suit": "Wands",
+      "meaning_upright": "Khám phá, nhiệt huyết, sự tò mò.",
+      "meaning_reversed": "Thiếu động lực, ngây thơ, không kiên định.",
+      "keywords": ["exploration", "enthusiasm", "curiosity"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mercury",
+        "astrological_sign": "Aries"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Knight of Wands",
+      "value": "Knight",
+      "value_int": 12,
+      "suit": "Wands",
+      "meaning_upright": "Phiêu lưu, tự tin, hành động táo bạo.",
+      "meaning_reversed": "Thiếu suy nghĩ, bốc đồng, thiếu kiên định.",
+      "keywords": ["adventure", "confidence", "bold action"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Mars",
+        "astrological_sign": "Leo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Queen of Wands",
+      "value": "Queen",
+      "value_int": 13,
+      "suit": "Wands",
+      "meaning_upright": "Sức mạnh, sự quyết đoán, độc lập.",
+      "meaning_reversed": "Lạm quyền, thiếu kiên nhẫn, hung hăng.",
+      "keywords": ["strength", "assertiveness", "independence"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Sun",
+        "astrological_sign": "Aries"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "King of Wands",
+      "value": "King",
+      "value_int": 14,
+      "suit": "Wands",
+      "meaning_upright": "Lãnh đạo, tầm nhìn, thành công.",
+      "meaning_reversed": "Thất bại, chuyên quyền, ích kỷ.",
+      "keywords": ["leadership", "vision", "success"],
+      "associations": {
+        "element": "Fire",
+        "planet": "Sun",
+        "astrological_sign": "Leo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ace of Swords",
+      "value": "1",
+      "value_int": 1,
+      "suit": "Swords",
+      "meaning_upright": "Sự rõ ràng, sự thật, chiến thắng.",
+      "meaning_reversed": "Nhầm lẫn, thất bại, bạo lực.",
+      "keywords": ["clarity", "truth", "victory"],
+      "associations": {
+        "element": "Air",
+        "planet": "Venus",
+        "astrological_sign": "Libra"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Two of Swords",
+      "value": "2",
+      "value_int": 2,
+      "suit": "Swords",
+      "meaning_upright": "Cân bằng, sự lựa chọn, đình chỉ.",
+      "meaning_reversed": "Quyết định khó khăn, bối rối, căng thẳng.",
+      "keywords": ["balance", "choice", "suspension"],
+      "associations": {
+        "element": "Air",
+        "planet": "Moon",
+        "astrological_sign": "Libra"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Three of Swords",
+      "value": "3",
+      "value_int": 3,
+      "suit": "Swords",
+      "meaning_upright": "Đau khổ, mất mát, tan vỡ.",
+      "meaning_reversed": "Hàn gắn, tha thứ, lạc quan.",
+      "keywords": ["heartbreak", "loss", "breakup"],
+      "associations": {
+        "element": "Air",
+        "planet": "Saturn",
+        "astrological_sign": "Libra"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Four of Swords",
+      "value": "4",
+      "value_int": 4,
+      "suit": "Swords",
+      "meaning_upright": "Nghỉ ngơi, phục hồi, suy ngẫm.",
+      "meaning_reversed": "Mất cân bằng, lo lắng, căng thẳng.",
+      "keywords": ["rest", "recovery", "reflection"],
+      "associations": {
+        "element": "Air",
+        "planet": "Jupiter",
+        "astrological_sign": "Aquarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Five of Swords",
+      "value": "5",
+      "value_int": 5,
+      "suit": "Swords",
+      "meaning_upright": "Xung đột, mất mát, căng thẳng.",
+      "meaning_reversed": "Hòa giải, kết thúc tranh cãi, tha thứ.",
+      "keywords": ["conflict", "loss", "tension"],
+      "associations": {
+        "element": "Air",
+        "planet": "Venus",
+        "astrological_sign": "Aquarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Six of Swords",
+      "value": "6",
+      "value_int": 6,
+      "suit": "Swords",
+      "meaning_upright": "Di chuyển, thay đổi, hồi phục.",
+      "meaning_reversed": "Trì hoãn, sự kháng cự, bế tắc.",
+      "keywords": ["transition", "change", "recovery"],
+      "associations": {
+        "element": "Air",
+        "planet": "Mercury",
+        "astrological_sign": "Aquarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Seven of Swords",
+      "value": "7",
+      "value_int": 7,
+      "suit": "Swords",
+      "meaning_upright": "Lừa dối, chiến lược, kế hoạch.",
+      "meaning_reversed": "Hối hận, bị phơi bày, trung thực.",
+      "keywords": ["deception", "strategy", "planning"],
+      "associations": {
+        "element": "Air",
+        "planet": "Moon",
+        "astrological_sign": "Gemini"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Eight of Swords",
+      "value": "8",
+      "value_int": 8,
+      "suit": "Swords",
+      "meaning_upright": "Giới hạn, sợ hãi, cạm bẫy.",
+      "meaning_reversed": "Giải phóng, tự do, sức mạnh.",
+      "keywords": ["restriction", "fear", "trap"],
+      "associations": {
+        "element": "Air",
+        "planet": "Jupiter",
+        "astrological_sign": "Gemini"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Nine of Swords",
+      "value": "9",
+      "value_int": 9,
+      "suit": "Swords",
+      "meaning_upright": "Lo âu, ác mộng, khổ đau.",
+      "meaning_reversed": "Hàn gắn, hy vọng, thấu hiểu.",
+      "keywords": ["anxiety", "nightmares", "suffering"],
+      "associations": {
+        "element": "Air",
+        "planet": "Mars",
+        "astrological_sign": "Gemini"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ten of Swords",
+      "value": "10",
+      "value_int": 10,
+      "suit": "Swords",
+      "meaning_upright": "Kết thúc, đau đớn, sự mất mát.",
+      "meaning_reversed": "Hồi phục, sự kiên cường, chấm dứt.",
+      "keywords": ["endings", "pain", "loss"],
+      "associations": {
+        "element": "Air",
+        "planet": "Sun",
+        "astrological_sign": "Gemini"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Page of Swords",
+      "value": "Page",
+      "value_int": 11,
+      "suit": "Swords",
+      "meaning_upright": "Tò mò, thông tin, khám phá.",
+      "meaning_reversed": "Thiếu hiểu biết, ngây thơ, sự chậm trễ.",
+      "keywords": ["curiosity", "information", "exploration"],
+      "associations": {
+        "element": "Air",
+        "planet": "Mercury",
+        "astrological_sign": "Libra"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Knight of Swords",
+      "value": "Knight",
+      "value_int": 12,
+      "suit": "Swords",
+      "meaning_upright": "Hành động, quyết đoán, lý tưởng.",
+      "meaning_reversed": "Thiếu cân nhắc, bốc đồng, bạo lực.",
+      "keywords": ["action", "decisiveness", "idealism"],
+      "associations": {
+        "element": "Air",
+        "planet": "Mars",
+        "astrological_sign": "Aquarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Queen of Swords",
+      "value": "Queen",
+      "value_int": 13,
+      "suit": "Swords",
+      "meaning_upright": "Thông thái, độc lập, sự thật.",
+      "meaning_reversed": "Thiếu cảm xúc, khắc nghiệt, cô lập.",
+      "keywords": ["wisdom", "independence", "truth"],
+      "associations": {
+        "element": "Air",
+        "planet": "Venus",
+        "astrological_sign": "Libra"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "King of Swords",
+      "value": "King",
+      "value_int": 14,
+      "suit": "Swords",
+      "meaning_upright": "Lãnh đạo, logic, sự công bằng.",
+      "meaning_reversed": "Lạm dụng quyền lực, tàn nhẫn, bất công.",
+      "keywords": ["leadership", "logic", "justice"],
+      "associations": {
+        "element": "Air",
+        "planet": "Saturn",
+        "astrological_sign": "Aquarius"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ace of Pentacles",
+      "value": "1",
+      "value_int": 1,
+      "suit": "Pentacles",
+      "meaning_upright": "Cơ hội mới, sự ổn định, thịnh vượng.",
+      "meaning_reversed": "Cơ hội bị bỏ lỡ, sự thiếu hụt, không chắc chắn.",
+      "keywords": ["opportunity", "stability", "prosperity"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Venus",
+        "astrological_sign": "Taurus"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Two of Pentacles",
+      "value": "2",
+      "value_int": 2,
+      "suit": "Pentacles",
+      "meaning_upright": "Cân bằng, quản lý, linh hoạt.",
+      "meaning_reversed": "Thiếu kiểm soát, bất ổn, sự hỗn loạn.",
+      "keywords": ["balance", "management", "flexibility"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Jupiter",
+        "astrological_sign": "Capricorn"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Three of Pentacles",
+      "value": "3",
+      "value_int": 3,
+      "suit": "Pentacles",
+      "meaning_upright": "Hợp tác, làm việc nhóm, kỹ năng.",
+      "meaning_reversed": "Thiếu hợp tác, sự mâu thuẫn, không hoàn thiện.",
+      "keywords": ["collaboration", "teamwork", "skills"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Mars",
+        "astrological_sign": "Capricorn"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Four of Pentacles",
+      "value": "4",
+      "value_int": 4,
+      "suit": "Pentacles",
+      "meaning_upright": "Ổn định tài chính, bảo vệ, tiết kiệm.",
+      "meaning_reversed": "Bị ám ảnh, sự tham lam, sự mất mát.",
+      "keywords": ["stability", "protection", "saving"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Sun",
+        "astrological_sign": "Capricorn"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Five of Pentacles",
+      "value": "5",
+      "value_int": 5,
+      "suit": "Pentacles",
+      "meaning_upright": "Mất mát, nghèo khó, sự thiếu thốn.",
+      "meaning_reversed": "Hồi phục, cải thiện, hy vọng.",
+      "keywords": ["loss", "poverty", "scarcity"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Mercury",
+        "astrological_sign": "Taurus"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Six of Pentacles",
+      "value": "6",
+      "value_int": 6,
+      "suit": "Pentacles",
+      "meaning_upright": "Sự cho đi, sự nhận lại, lòng hào phóng.",
+      "meaning_reversed": "Không công bằng, sự ích kỷ, sự bất bình đẳng.",
+      "keywords": ["giving", "receiving", "generosity"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Moon",
+        "astrological_sign": "Taurus"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Seven of Pentacles",
+      "value": "7",
+      "value_int": 7,
+      "suit": "Pentacles",
+      "meaning_upright": "Kiên nhẫn, đầu tư, chờ đợi kết quả.",
+      "meaning_reversed": "Không hài lòng, sự mất mát, thiếu kiên nhẫn.",
+      "keywords": ["patience", "investment", "waiting"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Saturn",
+        "astrological_sign": "Taurus"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Eight of Pentacles",
+      "value": "8",
+      "value_int": 8,
+      "suit": "Pentacles",
+      "meaning_upright": "Làm việc chăm chỉ, sự tỉ mỉ, học hỏi.",
+      "meaning_reversed": "Sự lười biếng, sự không hiệu quả, bỏ bê.",
+      "keywords": ["hard work", "diligence", "learning"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Mercury",
+        "astrological_sign": "Virgo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Nine of Pentacles",
+      "value": "9",
+      "value_int": 9,
+      "suit": "Pentacles",
+      "meaning_upright": "Thành công, sự độc lập, giàu có.",
+      "meaning_reversed": "Sự phụ thuộc, lãng phí, mất ổn định.",
+      "keywords": ["success", "independence", "wealth"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Venus",
+        "astrological_sign": "Virgo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Ten of Pentacles",
+      "value": "10",
+      "value_int": 10,
+      "suit": "Pentacles",
+      "meaning_upright": "Thịnh vượng, truyền thống, gia đình.",
+      "meaning_reversed": "Sự mất mát, không ổn định, căng thẳng gia đình.",
+      "keywords": ["prosperity", "tradition", "family"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Mercury",
+        "astrological_sign": "Virgo"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Page of Pentacles",
+      "value": "Page",
+      "value_int": 11,
+      "suit": "Pentacles",
+      "meaning_upright": "Học hỏi, cơ hội mới, tiềm năng.",
+      "meaning_reversed": "Thiếu tập trung, sự trì trệ, cơ hội bị lãng phí.",
+      "keywords": ["learning", "opportunity", "potential"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Venus",
+        "astrological_sign": "Capricorn"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Knight of Pentacles",
+      "value": "Knight",
+      "value_int": 12,
+      "suit": "Pentacles",
+      "meaning_upright": "Làm việc chăm chỉ, sự kiên định, trách nhiệm.",
+      "meaning_reversed": "Sự chậm chạp, sự lười biếng, thiếu sự đột phá.",
+      "keywords": ["hard work", "determination", "responsibility"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Mars",
+        "astrological_sign": "Taurus"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "Queen of Pentacles",
+      "value": "Queen",
+      "value_int": 13,
+      "suit": "Pentacles",
+      "meaning_upright": "Chăm sóc, thực tế, sự giàu có.",
+      "meaning_reversed": "Sự ích kỷ, sự phụ thuộc, sự hoang phí.",
+      "keywords": ["nurturing", "practicality", "wealth"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Saturn",
+        "astrological_sign": "Capricorn"
+      }
+    },
+    {
+      "type": "Minor Arcana",
+      "name": "King of Pentacles",
+      "value": "King",
+      "value_int": 14,
+      "suit": "Pentacles",
+      "meaning_upright": "Lãnh đạo, thành công, sự ổn định.",
+      "meaning_reversed": "Tham lam, thiếu trách nhiệm, sự thất bại.",
+      "keywords": ["leadership", "success", "stability"],
+      "associations": {
+        "element": "Earth",
+        "planet": "Jupiter",
+        "astrological_sign": "Taurus"
+      }
+    }
+  ]
+}
