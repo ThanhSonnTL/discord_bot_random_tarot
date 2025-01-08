@@ -38,6 +38,30 @@ setInterval(() => {
     }, timeUntilMidnight);
 }, 24 * 60 * 60 * 1000);
 
+client.on('interactionCreate', interaction => {
+    if (!interaction.isButton()) return;
+
+    if (interaction.customId === 'view_again') {
+        const userId = interaction.user.id;
+        if (userDraws.has(userId)) {
+            const { description } = userDraws.get(userId);
+            interaction.reply({
+                embeds: [{
+                    color: 0x3498db,
+                    title: "Lá bài của bạn hôm nay",
+                    description: description
+                }],
+                ephemeral: true
+            });
+        } else {
+            interaction.reply({
+                content: "Bạn chưa rút lá bài nào hôm nay.",
+                ephemeral: true
+            });
+        }
+    }
+});
+
 client.on('messageCreate', async message => {
     if (message.content === '!draw') {
         const userId = message.author.id;
@@ -48,11 +72,21 @@ client.on('messageCreate', async message => {
                 embeds: [{
                     color: 0x3498db,
                     title: "Bạn đã rút một lá bài hôm nay rồi. Hãy thử lại vào ngày mai!",
-                    description: `${userDraws.get(userId).description}`
+                }],
+                components: [{
+                    type: 1,
+                    components: [{
+                        type: 2,
+                        label: "Xem lại",
+                        style: 1,
+                        custom_id: "view_again"
+                    }]
                 }]
             });
             return;
         }
+
+
         // Pick a random card
         const randomCard = desk.cards[Math.floor(Math.random() * desk.cards.length)];
 
