@@ -2,29 +2,33 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const { Client, GatewayIntentBits } = require('discord.js');
+const { createAudioPlayer, createAudioResource, StreamType, demuxProbe, joinVoiceChannel, NoSubscriberBehavior, AudioPlayerStatus, VoiceConnectionStatus, getVoiceConnection } = require('@discordjs/voice')
+
+const playdl = require('play-dl');
+const ytpl = require('ytpl');
 
 const fs = require('fs');
 const path = require('path');
 const desk = JSON.parse(fs.readFileSync(path.join(__dirname, 'public', 'card_data.json'), 'utf8'));
 
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-const genAI = new GoogleGenerativeAI(process.env.AI_TOKEN);
-const userDraws = new Map();
 
-
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
-
-client.once('ready', () => {
-    console.log('Bot is online!');
-
+const client = new Client({
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildVoiceStates,
+        GatewayIntentBits.DirectMessages,
+    ]
 });
 
-client.on('messageCreate', message => {
-    if (message.content === '!ping') {
-        message.channel.send('Pong!');
-    }
-});
+const PREFIX = '!';
 
+let queue = [];
+let isPlaying = false;
+let genAI = new GoogleGenerativeAI(process.env.AI_TOKEN);
+let userDraws = new Map();
 
 // Reset userDraws at the start of a new day
 setInterval(() => {
@@ -121,6 +125,127 @@ client.on('messageCreate', async message => {
     }
 });
 
+async function playSong(connection) {
+    if (queue.length === 0) {
+        isPlaying = false;
+        return;
+    }
+
+    isPlaying = true;
+    const song = queue.shift();
+
+    try {
+        const stream = await playdl.stream(song.url);
+        const resource = createAudioResource(stream.stream, {
+            inputType: stream.type
+        });
+        const player = createAudioPlayer({
+            behaviors: {
+                noSubscriber: NoSubscriberBehavior.Play
+            }
+        });
+
+        player.play(resource);
+        connection.subscribe(player);
+
+        player.on(AudioPlayerStatus.Idle, () => {
+            playSong(connection);
+        });
+
+        player.on('error', error => {
+            console.error(`Error: ${error.message}`);
+            playSong(connection);
+        });
+
+        console.log(`Now playing: ${song.title}`);
+    } catch (error) {
+        console.error("Error streaming audio:", error);
+    }
+}
+
+client.on('messageCreate', async (message) => {
+    if (!message.content.startsWith(PREFIX) || message.author.bot) return;
+
+    const args = message.content.slice(PREFIX.length).trim().split(/\s+/);
+    const command = args.shift().toLowerCase();
+
+    if (command === 'play') {
+
+        const updatedMember = await message.guild.members.fetch(message.member.id);
+        const voiceChannel = updatedMember.voice.channel;
+
+        if (!voiceChannel) {
+            return message.reply('You need to be in a voice channel to play music!');
+        }
+
+        const permissions = voiceChannel.permissionsFor(message.client.user);
+        if (!permissions?.has('CONNECT') || !permissions.has('SPEAK')) {
+            return message.reply('I need permissions to join and speak in your voice channel!');
+        }
+
+        const url = args[0];
+        //console.log(url);
+
+        if (!ytpl.validateID(url)) {
+            return message.reply('Please provide a valid YouTube playlist URL!');
+        }
+
+        const playlist = await ytpl(url, { pages: 1 });
+        playlist.items.forEach(item => {
+            queue.push({ title: item.title, url: item.url });
+        });
+
+        message.channel.send(`Added ${playlist.items.length} songs to the queue!`);
+
+        const connection = joinVoiceChannel({
+            channelId: voiceChannel.id,
+            guildId: message.guild.id,
+            adapterCreator: message.guild.voiceAdapterCreator
+        });
+
+        if (!isPlaying) playSong(connection);
+    }
+
+    if (command === 'skip') {
+        if (queue.length > 0) {
+            message.reply('Skipping the current song...');
+            playSong();
+        } else {
+            message.reply('There are no songs in the queue to skip!');
+        }
+    }
+
+    if (command === 'stop') {
+        queue = [];
+        isPlaying = false;
+        message.reply('Stopping the music and clearing the queue!');
+    }
+});
+
+
+// client.on('voiceStateUpdate', (oldState, newState) => {
+//     const member = newState.member;
+
+//     // User joined a voice channel
+//     if (!oldState.channel && newState.channel) {
+//         console.log(`${member.user.tag} joined the voice channel: ${newState.channel.name}`);
+//     }
+
+//     // User left a voice channel
+//     if (oldState.channel && !newState.channel) {
+//         console.log(`${member.user.tag} left the voice channel: ${oldState.channel.name}`);
+//     }
+
+//     // User switched voice channels
+//     if (oldState.channel && newState.channel && oldState.channel.id !== newState.channel.id) {
+//         console.log(`${member.user.tag} switched from ${oldState.channel.name} to ${newState.channel.name}`);
+//     }
+// });
+
+client.once('ready', () => {
+    console.log('Bot is online!');
+
+});
 
 client.login(process.env.DISCORD_TOKEN);
 
